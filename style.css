@@ -64,7 +64,7 @@ main{
     background-repeat: no-repeat;      
     background-attachment: fixed;
     background-size: cover;  
-    position relative;
+    position: relative;
     box-shadow: inset 6px 6px 13px 0px black;
     
     
