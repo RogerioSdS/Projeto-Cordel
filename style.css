@@ -12,10 +12,12 @@
 p{
     font-family: var(--fonte3);
     font-size: 3em;
-    margin: auto;
+    margin: 2px;
+   
 }
 body{
     margin: 0px;
+    
 }
 header{
     
@@ -25,7 +27,7 @@ header{
     text-align: center;
     
     
-    padding: 0px;
+    
 }
 header>h1{   
     margin: 0px;
@@ -53,18 +55,36 @@ header>p>a:hover{
 main{
     background-color: white;
 }
-article{
-    padding: 50px 30px;
-}
-  
 
 #img1{
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;    
     background-attachment: fixed;
+    background-size: 100% 100%;  
+    position: relative;
+    
+    
 }
 #img2{
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;    
     background-attachment: fixed;
+    background-size: 100% 100%;  
+    position: relative;
+}
+.qdbco{
+    background-color: white;    
+    font-size: max(12px, 1vw);
+    padding: 25px;
+    
+}
+.qdpto{
+    background-color: rgba(0, 0, 0, 0.582);      
+    color: white;    
+    font-family: var(--fonte2);
+    font-size: max(5px, 1.0vw);      
+    width: 40vw;  
+    display: inline-block;
+    margin: 20px;
+
 }
