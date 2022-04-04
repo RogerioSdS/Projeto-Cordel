@@ -61,16 +61,20 @@ main{
 
 #img1{
     background-image: url(imagens/background001.jpg);
-    background-size: cover;
+    background-repeat: no-repeat;      
     background-attachment: fixed;
+    background-size: 100% 100%;  
+    position: relative;
     box-shadow: inset 6px 6px 13px 0px black;
-    background-position: right center;
+    
     
 }
 #img2{
     background-image: url(imagens/background002.jpg);
-    background-size: cover;
+    background-repeat: no-repeat;    
     background-attachment: fixed;
+    background-size: 100% 100%;  
+    position: relative;
     box-shadow: inset 6px 6px 13px 0px black;
 }
 .qdbco{
