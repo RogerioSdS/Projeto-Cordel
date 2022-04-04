@@ -61,10 +61,11 @@ main{
 
 #img1{
     background-image: url(imagens/background001.jpg);
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;      
     background-attachment: fixed;
     background-size: 100% 100%;  
     position: relative;
+    box-shadow: inset 6px 6px 13px 0px black;
     
     
 }
@@ -74,13 +75,15 @@ main{
     background-attachment: fixed;
     background-size: 100% 100%;  
     position: relative;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 .qdbco{
     background-color: white;    
     font-size: max(5px, 1vw);
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 8vh;
     padding-left: 10vh;
+    
 
     
 }
@@ -91,6 +94,7 @@ main{
     width: 40vw;  
     display: inline-block;
     margin: 10vh;
+    text-shadow: 3px -4px 0px black;
 
 }
 footer{
